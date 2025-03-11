@@ -1,8 +1,12 @@
-import {Text} from 'react-native';
-import React from 'react-native';
+import React, {Text} from 'react-native';
+import BaseView from '@host-app/common/components/base-view';
 
 const HomePage = () => {
-  return <Text>Home page</Text>;
+  return (
+    <BaseView>
+      <Text>123</Text>
+    </BaseView>
+  );
 };
 
 export default HomePage;
