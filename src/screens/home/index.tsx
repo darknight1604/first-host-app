@@ -4,7 +4,7 @@ import BaseView from '@host-app/common/components/base-view';
 const HomePage = () => {
   return (
     <BaseView>
-      <Text>123</Text>
+      <Text>Home page</Text>
     </BaseView>
   );
 };
