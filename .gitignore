@@ -75,3 +75,6 @@ yarn-error.log
 
 
 __tests__/
+
+# Accessing the private npm package
+.npmrc
