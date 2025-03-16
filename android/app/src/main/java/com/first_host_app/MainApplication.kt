@@ -1,4 +1,4 @@
-package com.first_host_app
+package com.dani.host.app
 
 import android.app.Application
 import com.facebook.react.PackageList

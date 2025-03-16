@@ -1,4 +1,4 @@
-package com.first_host_app
+package com.dani.host.app
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
