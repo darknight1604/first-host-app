@@ -6,11 +6,15 @@
  */
 
 import React from 'react';
-
-import HomePage from './screens/home';
+import AppProvider from '@host-app/common/components/providers/app-provider';
+import HomePage from '@host-app/screens/home';
 
 const App = () => {
-  return <HomePage />;
+  return (
+    <AppProvider>
+      <HomePage />
+    </AppProvider>
+  );
 };
 
 export default App;

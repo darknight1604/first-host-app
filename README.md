@@ -80,6 +80,16 @@ module.exports = {
 };
 ```
 
+### Setup Google Sign-in
+- Create file `.npmrc`:
+```
+//npm.pkg.github.com/:_authToken=TOKEN
+@react-native-google-signin:registry=https://npm.pkg.github.com/:_authToken=TOKEN
+```
+- `npm i @react-native-google-signin/google-signin@latest`
+- Configure URL types in the `Info` add your "iOS URL scheme" (also known as reversed client id), which can be found in `GoogleService-Info.plist`
+
+*More detail can find at [here](https://react-native-google-signin.github.io/docs/install)*
 
 ## Release
 ### Android key
