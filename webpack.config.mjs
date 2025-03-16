@@ -25,7 +25,7 @@ export default env => {
   const {
     mode = 'development',
     context = dirname,
-    entry = './index.js',
+    entry = './index.ts',
     platform = process.env.PLATFORM,
     minimize = mode === 'production',
     devServer = undefined,
