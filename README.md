@@ -79,3 +79,8 @@ module.exports = {
   ],
 };
 ```
+
+
+## Release
+### Android key
+- Find it in Note with `Dani host app release key`. In that note we have various pair keys debug-debug(Variant-Config), release-debug, debugAndroidTest-debug
